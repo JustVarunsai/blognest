@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Noto+Sans+JP:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@600&display=swap');
+
+.sidebar{
+   
+    display: none;
+   
+}
+
+.dib{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 53px;
+    min-height: 53px;
+    user-select: none;
+    border: 1px solid rgb(175, 172, 172);
+    
+}
+
+.dib:hover{
+    cursor: pointer;
+    background-color: rgba(212, 208, 208, 0.751);
+}
+
+#proimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+
+#proimg img{
+    border-radius: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+#probox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 150px;
+}
+.dib h4{
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    color: rgb(77, 73, 73);
+}
+
+.linker{
+    text-decoration: none;
+    
+}
+
+#cat{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 53px;
+    min-height: 53px;
+    user-select: none;
+    background-color: #5C8374;
+   
+}
+
+#cat h4{
+    color: white;
+}
+
+#cut{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#cut h4{
+    color: rgb(137, 255, 255);
+
+}
+
+#setimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+}
+
+#outimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+}
+
+.yu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 150px;
+}
+
+.fuu{
+    display: none;
+}
+
+.fade{
+    display: none;
+}
+
+.barside{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .sidebar{
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        border: 1px solid rgb(146, 144, 144);
+        position: fixed;
+        top: 50px;
+        display: flex;
+       
+       
+        flex-direction: column;
+        transform: translateX(50%);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .khisak{
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+        
+    }
+
+    .barside{
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        border: 1px solid rgb(146, 144, 144);
+        position: fixed;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .fade{
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.371);
+        /* filter: blur(4px); */
+        
+    }
+
+    .fuu{
+        display: none;
+    }
+    
+    .dib{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 53px;
+        min-height: 53px;
+        user-select: none;
+        border: 1px solid rgb(175, 172, 172);
+        
+    }
+
+    #cat{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 53px;
+        min-height: 53px;
+        user-select: none;
+        background-color: #5C8374;
+      
+       
+    }
+
+    #proimg{
+        width: 50px;
+        height: 50px;
+        border-radius: 80px;
+    }
+    #probox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 130px;
+    }
+
+    #pot{
+
+        height: 35px;
+        width: 35px;
+        border-radius: 20px;
+       position: relative;
+       right: 10px;
+        
+    }
+    
+    #pot img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #cut{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    
+    #cut h4{
+        color: #5C8374;
+    
+    }
+
+    #cll{
+        position: relative;
+        right: 150px;
+        top: 50px;
+    }
+
+    #blogu{
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #blogu h2{
+        color: #5C8374;
+    }
+    
+
+    
+}
+
