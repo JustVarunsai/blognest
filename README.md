@@ -4,6 +4,8 @@ BlogNest is a full-stack blog application designed to provide users with a seaml
 
 ### Project Structure
 
+
+#### Video Demo:  < https://youtu.be/HZhH__NYHzk  >
 #### Frontend (BlogNest)
 
 The frontend of BlogNest is a dynamic and interactive single-page application (SPA) built with React. This part of the project is housed in the `BlogNest` directory, which contains several important files and directories:
